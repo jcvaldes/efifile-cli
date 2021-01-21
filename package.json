@@ -1,0 +1,30 @@
+{
+  "name": "efifile-cli",
+  "version": "1.0.0",
+  "description": "Proyecto CLI para generar archivos de manera facil",
+  "main": "index.js",
+  "scripts": {
+    "efifile-cli": "./node_modules/.bin/efifile-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcvaldes/efifile-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "commands"
+  ],
+  "author": "Juan Carlos Valdés <idevkingos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcvaldes/efifile-cli/issues"
+  },
+  "homepage": "https://github.com/jcvaldes/efifile-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  },
+  "bin": "./index.js"
+}
